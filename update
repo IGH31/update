@@ -1,0 +1,31 @@
+#!/bin/sh
+clear
+
+echo "________TERMUX___UPDATE__________"
+echo "|________________________________|"
+sleep 3
+echo "TOOL INI DI BUAT SEKEDAR UNTUK MENGGUPDATE BAHAN TERMUX"
+sleep2
+read -p "SIAPA NAMA ANDA? " nama
+echo "HAY " $nama
+echo "TUNGGU SEBENTAR..." | lolcat -a -d 30
+sleep 2
+echo "MENGUPDATE..." | lolcat -a -d 30
+sleep 2
+clear
+apt updage && apt upgrade
+apt install git
+apt install python
+apt install python2
+apt install toilet figlet
+apt install ruby cowsay
+apt install nano
+apt install php
+pip2 install requests
+pip2 install mechanize
+apt install node
+apt install curl
+sleep 4 
+clear
+echo "DONE BOSQ"
+echo "SUSAH DI UPDATE..."
